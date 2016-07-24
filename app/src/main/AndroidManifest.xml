@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hp_pc.databasepr" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DataView"
+            android:label="Hello" >
+        </activity>
+        <activity
+            android:name=".Data2"
+            android:label="@string/title_activity_data2" >
+        </activity>
+        <activity
+            android:name=".Firstpage"
+            android:label="Firstpage" >
+
+        </activity>
+        <activity
+            android:name=".OnlyLoad"
+            android:label="@string/title_activity_only_load" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp1"
+            android:label="@string/title_activity_sign_up1" >
+
+        </activity>
+    </application>
+
+</manifest>
